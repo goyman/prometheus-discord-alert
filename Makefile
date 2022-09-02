@@ -12,3 +12,8 @@ release:
 
 run:
 	cargo run
+
+.PHONY: clean
+
+clean:
+	rm -fr target
